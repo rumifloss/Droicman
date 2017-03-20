@@ -96,17 +96,30 @@ direction_select = irandom(2);
 if direction_select == 0
 {
     direction = 180;
-    //image_xscale = -1;
     image_angle = 180;
     image_yscale = -1;
 }
 if direction_select == 1
 {
     direction = 0;
-    //image_xscale = 1;
     image_angle = 0;
     image_yscale = 1;
 }
+
+if x &gt;= 256
+{
+    direction = 180;
+    image_angle = 180;
+    image_yscale = -1;
+}
+
+if x &lt;= 64
+{
+    direction = 0;
+    image_angle = 0;
+    image_yscale = 1;
+}   
+
 </string>
           </argument>
         </arguments>
@@ -124,28 +137,6 @@ if direction_select == 1
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
-      </action>
-    </event>
-    <event eventtype="7" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>112</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_wrap</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
       </action>
     </event>
   </events>

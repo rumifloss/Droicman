@@ -1,7 +1,9 @@
-//Migrate draw events to OBJ_ROOM_DRAW
 //Get all buttons functioning as intended
-//--Power button toggles between ON and OFF; when ON, will switch to ROOM_WELCOME, 
-//--and will go to ROOM_START when switched to OFF while being ON.
+// - Animate sound button
+// - Check why vibration isn't working
+//Create Welcome screen
+//Fix Game Over screen, make it restart game on the press of any button on the dpad
+//Recreate level packs A and B
 //Add level pack C
 //Add level pack D
 //Add level pack E

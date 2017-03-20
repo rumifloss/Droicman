@@ -10,7 +10,7 @@
   <persistent>0</persistent>
   <colour>0</colour>
   <showcolour>0</showcolour>
-  <code>global.game_ended = 0;</code>
+  <code>global.game_ended = -2;</code>
   <enableViews>0</enableViews>
   <clearViewBackground>0</clearViewBackground>
   <clearDisplayBuffer>0</clearDisplayBuffer>
@@ -58,9 +58,9 @@
     <instance objName="obj_dpad_up" x="172" y="368" name="inst_7246E9AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_button_sound" x="20" y="440" name="inst_7EA39FAA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_button_vibrate" x="20" y="472" name="inst_35672146" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_room_start" x="4" y="-24" name="inst_CE62BB04" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_button_power" x="24" y="364" name="inst_F69FB3A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_room_draw" x="24" y="-24" name="inst_582F7BB6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_room" x="4" y="-20" name="inst_DC64EC21" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_screen_off" x="32" y="19" name="inst_91B6A1D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_console" x="0" y="0" w="64" h="64" xo="0" yo="0" id="10000004" name="inst_FBA03FB1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

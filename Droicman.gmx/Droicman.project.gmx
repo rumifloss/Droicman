@@ -22,7 +22,6 @@
     <sprite>sprites\spr_chombig</sprite>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_wall_debug</sprite>
-    <sprite>sprites\spr_checker</sprite>
     <sprites name="spr_enemy">
       <sprite>sprites\spr_enemy_normal</sprite>
       <sprite>sprites\spr_enemy_vuln</sprite>
@@ -30,7 +29,6 @@
     </sprites>
     <sprites name="spr_dpad">
       <sprite>sprites\spr_dpad_up</sprite>
-      <sprite>sprites\spr_dpad_up_res</sprite>
       <sprite>sprites\spr_dpad_up_pressed</sprite>
       <sprite>sprites\spr_dpad_right</sprite>
       <sprite>sprites\spr_dpad_right_pressed</sprite>
@@ -43,11 +41,13 @@
       <sprite>sprites\spr_button_power</sprite>
       <sprite>sprites\spr_button_power_pressed</sprite>
       <sprite>sprites\spr_button_white</sprite>
+      <sprite>sprites\spr_button_white_pressed</sprite>
     </sprites>
     <sprite>sprites\spr_sticker</sprite>
+    <sprite>sprites\spr_room</sprite>
+    <sprite>sprites\spr_screen_off</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\bg_title</background>
     <background>background\bg_console</background>
     <background>background\bg_console_rough</background>
   </backgrounds>
@@ -68,7 +68,6 @@
     <object>objects\obj_room</object>
     <object>objects\obj_enemy</object>
     <object>objects\obj_enemy_die</object>
-    <object>objects\obj_room_start</object>
     <objects name="obj_dpad">
       <object>objects\obj_dpad_left</object>
       <object>objects\obj_dpad_right</object>
@@ -83,7 +82,7 @@
       <object>objects\obj_button_sound</object>
     </objects>
     <object>objects\obj_sticker</object>
-    <object>objects\obj_room_draw</object>
+    <object>objects\obj_screen_off</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_start</room>

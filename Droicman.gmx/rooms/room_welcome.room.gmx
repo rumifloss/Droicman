@@ -3,15 +3,16 @@
   <caption></caption>
   <width>320</width>
   <height>512</height>
-  <vsnap>4</vsnap>
-  <hsnap>4</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
   <colour>0</colour>
   <showcolour>0</showcolour>
-  <code>global.game_level = -1;
-global.game_ended = 0;</code>
+  <code>global.game_ended = -1;
+//obj_room.alarm[1] = 240;
+audio_play_sound(snd_title, 1, 0);</code>
   <enableViews>0</enableViews>
   <clearViewBackground>0</clearViewBackground>
   <clearDisplayBuffer>0</clearDisplayBuffer>
@@ -53,6 +54,8 @@ global.game_ended = 0;</code>
   </views>
   <instances>
     <instance objName="obj_sticker" x="31" y="326" name="inst_1DC54CFF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_dummy_player" x="160" y="176" name="inst_A0685A12" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_room" x="16" y="-32" name="inst_51D58D81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_console" x="0" y="0" w="64" h="64" xo="0" yo="0" id="10000004" name="inst_FBA03FB1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

@@ -15,9 +15,9 @@
     <option_android_arch_mips>False</option_android_arch_mips>
     <option_android_arch_mipsr2>false</option_android_arch_mipsr2>
     <option_android_arch_mipsr2sf>false</option_android_arch_mipsr2sf>
-    <option_android_arch_x86>True</option_android_arch_x86>
+    <option_android_arch_x86>False</option_android_arch_x86>
     <option_android_build_tools_version>23.0.1</option_android_build_tools_version>
-    <option_android_build_version>3</option_android_build_version>
+    <option_android_build_version>0</option_android_build_version>
     <option_android_color_depth>0</option_android_color_depth>
     <option_android_compile_sdk_version>23</option_android_compile_sdk_version>
     <option_android_display_name>Droicman</option_android_display_name>
@@ -46,7 +46,7 @@
     <option_android_lint>0</option_android_lint>
     <option_android_major_version>0</option_android_major_version>
     <option_android_min_sdk_version>9</option_android_min_sdk_version>
-    <option_android_minor_version>1</option_android_minor_version>
+    <option_android_minor_version>2</option_android_minor_version>
     <option_android_mmedia_ads>0</option_android_mmedia_ads>
     <option_android_moga>0</option_android_moga>
     <option_android_mopub_ads>0</option_android_mopub_ads>
@@ -68,7 +68,7 @@
     <option_android_sleep_margin>4</option_android_sleep_margin>
     <option_android_splash_png>Configs\Default\android\splash.png</option_android_splash_png>
     <option_android_splash_time>2</option_android_splash_time>
-    <option_android_support_lib_version>23.1.1</option_android_support_lib_version>
+    <option_android_support_lib_version>23.0.1</option_android_support_lib_version>
     <option_android_target_sdk_version>23</option_android_target_sdk_version>
     <option_android_texture_page>512</option_android_texture_page>
     <option_android_use_test_ads>false</option_android_use_test_ads>
@@ -467,13 +467,13 @@
     <option_variableerrors>False</option_variableerrors>
     <option_version>100</option_version>
     <option_version_build>0</option_version_build>
-    <option_version_company>Droidge Interactive</option_version_company>
+    <option_version_company>Droidge</option_version_company>
     <option_version_copyright></option_version_copyright>
-    <option_version_description>"You got to do what you got to do."</option_version_description>
+    <option_version_description>...and then, we add some protein. </option_version_description>
     <option_version_major>0</option_version_major>
-    <option_version_minor>1</option_version_minor>
+    <option_version_minor>2</option_version_minor>
     <option_version_product>Droicman</option_version_product>
-    <option_version_release>2</option_version_release>
+    <option_version_release>0</option_version_release>
     <option_win8_advertising_appid></option_win8_advertising_appid>
     <option_win8_advertising_enable>0</option_win8_advertising_enable>
     <option_win8_advertising_key></option_win8_advertising_key>
@@ -543,18 +543,18 @@
     <option_windowcolor>clBlack</option_windowcolor>
     <option_windows_alternate_sync_method>False</option_windows_alternate_sync_method>
     <option_windows_build_version>0</option_windows_build_version>
-    <option_windows_company_info>Droidge Interactive</option_windows_company_info>
+    <option_windows_company_info>Droidge</option_windows_company_info>
     <option_windows_copyright_info></option_windows_copyright_info>
     <option_windows_create_textures_on_demand>False</option_windows_create_textures_on_demand>
-    <option_windows_description_info>"You got to do what you got to do."</option_windows_description_info>
+    <option_windows_description_info>...and then, we add some protein. </option_windows_description_info>
     <option_windows_enable_steam>0</option_windows_enable_steam>
     <option_windows_game_icon>Configs\Default\windows\runner_icon.ico</option_windows_game_icon>
     <option_windows_license>Configs\Default\windows\License.txt</option_windows_license>
-    <option_windows_mainor_version>1</option_windows_mainor_version>
+    <option_windows_mainor_version>2</option_windows_mainor_version>
     <option_windows_major_version>0</option_windows_major_version>
     <option_windows_nsis_file>Configs\Default\windows\RunnerInstaller.nsi</option_windows_nsis_file>
     <option_windows_product_info>Droicman</option_windows_product_info>
-    <option_windows_release_version>2</option_windows_release_version>
+    <option_windows_release_version>0</option_windows_release_version>
     <option_windows_runner_finished>Configs\Default\windows\Runner_finish.bmp</option_windows_runner_finished>
     <option_windows_runner_header>Configs\Default\windows\Runner_header.bmp</option_windows_runner_header>
     <option_windows_save_location>0</option_windows_save_location>
