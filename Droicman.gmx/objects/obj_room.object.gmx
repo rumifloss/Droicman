@@ -359,10 +359,20 @@ if global.game_ended == 0
         audio_sound_gain(snd_bgm, 1, 0);
     }
     
-    if audio_is_playing(snd_title) //Stop title sound, if playing
+    //Stopping one-shot sounds when game starts
+    if audio_is_playing(snd_title) 
     {
         audio_stop_sound(snd_title);
     }
+    if audio_is_playing(snd_win)
+    {
+        audio_stop_sound(snd_win);
+    }
+    if audio_is_playing(snd_loss)
+    {
+        audio_stop_sound(snd_loss);
+    }
+    
 }
 
 if global.game_ended == 1 //Stop all non-gameover sounds
@@ -644,12 +654,12 @@ draw_clear_alpha(grey, 1);
 //Highscore display during Welcome screen
 if global.game_ended == -1
 {
-    draw_text(room_width / 2, 96, "DOROIJU INDUSTRIES");
-    draw_text(room_width / 2, 112, "PRESENTS");
-    draw_text(room_width / 2, 128, "DG-16 --DROICMAN--");
-    draw_text(room_width / 2, 208, "HISCORE - " + string(highscore) );
-    draw_text(room_width / 2, 224, "PRESS DPAD UP");
-    draw_text(room_width / 2, 240, "TO START GAME");
+    draw_text(room_width / 2, 80, "DOROIJU INDUSTRIES");
+    draw_text(room_width / 2, 96, "PRESENTS");
+    draw_text(room_width / 2, 128, "DROICMAN MODEL DG-16");
+    draw_text(room_width / 2, 208, "HISCORE " + string(highscore) );
+    draw_text(room_width / 2, 240, "PRESS DPAD UP");
+    draw_text(room_width / 2, 256, "TO START");
 }
 
 //In-game HUD
@@ -663,16 +673,17 @@ if global.game_ended == 0
 //Game Over display
 if global.game_ended == 1
 {
-    draw_text(room_width / 2, 16, "GAME OVER");
-    draw_text(room_width / 2, 56, "POINTS -- #" + string(global.player_score) );
-    draw_text(room_width / 2, 96, "- TIME -- #" + string(game_timer) );
-    draw_text(room_width / 2, 128, "--------");
-    draw_text(room_width / 2, 160, "TOTAL -- #" + string(global.player_score - game_timer) );
-    draw_text(room_width / 2, 224, "PRESS DPAD UP TO RESTART");
+    draw_text(room_width / 2, 64, "GAME OVER");
+    draw_text(room_width / 2, 112, "POINTS " + string(global.player_score) );
+    draw_text(room_width / 2, 128, "- TIME " + string(game_timer) );
+    draw_text(room_width / 2, 144, "----------------");
+    draw_text(room_width / 2, 160, "TOTAL " + string(global.player_score - game_timer) );
     if highscore_opened == 1 &amp;&amp; score_new &gt; score_old
     {
-        draw_text(room_width / 2, 176, "NEW BEST!");
+        draw_text(room_width / 2, 192, "NEW HISCORE");
     }
+    draw_text(room_width / 2, 240, "PRESS DPAD UP");
+    draw_text(room_width / 2, 256, "TO RESTART");
 }
 
 </string>
@@ -803,23 +814,17 @@ if global.game_ended == 0
     <event eventtype="10" enumb="8">
       <action>
         <libid>1</libid>
-        <id>224</id>
+        <id>332</id>
         <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>0</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_another_room</functionname>
+        <functionname>action_end_game</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>11</kind>
-            <room>room_0</room>
-          </argument>
-        </arguments>
       </action>
     </event>
   </events>

@@ -16,10 +16,10 @@
     <option_android_arch_mipsr2>false</option_android_arch_mipsr2>
     <option_android_arch_mipsr2sf>false</option_android_arch_mipsr2sf>
     <option_android_arch_x86>False</option_android_arch_x86>
-    <option_android_build_tools_version>23.0.1</option_android_build_tools_version>
+    <option_android_build_tools_version>25</option_android_build_tools_version>
     <option_android_build_version>0</option_android_build_version>
     <option_android_color_depth>0</option_android_color_depth>
-    <option_android_compile_sdk_version>23</option_android_compile_sdk_version>
+    <option_android_compile_sdk_version>25</option_android_compile_sdk_version>
     <option_android_display_name>Droicman</option_android_display_name>
     <option_android_facebook_app_display_name></option_android_facebook_app_display_name>
     <option_android_facebook_appid></option_android_facebook_appid>
@@ -68,8 +68,8 @@
     <option_android_sleep_margin>4</option_android_sleep_margin>
     <option_android_splash_png>Configs\Default\android\splash.png</option_android_splash_png>
     <option_android_splash_time>2</option_android_splash_time>
-    <option_android_support_lib_version>23.0.1</option_android_support_lib_version>
-    <option_android_target_sdk_version>23</option_android_target_sdk_version>
+    <option_android_support_lib_version>25.0.0</option_android_support_lib_version>
+    <option_android_target_sdk_version>25</option_android_target_sdk_version>
     <option_android_texture_page>512</option_android_texture_page>
     <option_android_use_test_ads>false</option_android_use_test_ads>
     <option_androidfire_GPU_device>0</option_androidfire_GPU_device>
@@ -469,7 +469,7 @@
     <option_version_build>0</option_version_build>
     <option_version_company>Droidge</option_version_company>
     <option_version_copyright></option_version_copyright>
-    <option_version_description>...and then, we add some protein. </option_version_description>
+    <option_version_description>" ... add some protein."</option_version_description>
     <option_version_major>0</option_version_major>
     <option_version_minor>2</option_version_minor>
     <option_version_product>Droicman</option_version_product>
@@ -546,7 +546,7 @@
     <option_windows_company_info>Droidge</option_windows_company_info>
     <option_windows_copyright_info></option_windows_copyright_info>
     <option_windows_create_textures_on_demand>False</option_windows_create_textures_on_demand>
-    <option_windows_description_info>...and then, we add some protein. </option_windows_description_info>
+    <option_windows_description_info>" ... add some protein."</option_windows_description_info>
     <option_windows_enable_steam>0</option_windows_enable_steam>
     <option_windows_game_icon>Configs\Default\windows\runner_icon.ico</option_windows_game_icon>
     <option_windows_license>Configs\Default\windows\License.txt</option_windows_license>
@@ -558,7 +558,7 @@
     <option_windows_runner_finished>Configs\Default\windows\Runner_finish.bmp</option_windows_runner_finished>
     <option_windows_runner_header>Configs\Default\windows\Runner_header.bmp</option_windows_runner_header>
     <option_windows_save_location>0</option_windows_save_location>
-    <option_windows_sleep_margin>1</option_windows_sleep_margin>
+    <option_windows_sleep_margin>10</option_windows_sleep_margin>
     <option_windows_splash_background_colour>#000000</option_windows_splash_background_colour>
     <option_windows_splash_screen>Configs\Default\windows\splash.png</option_windows_splash_screen>
     <option_windows_steam_app_id>0</option_windows_steam_app_id>

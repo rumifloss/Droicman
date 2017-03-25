@@ -46,6 +46,7 @@
     <sprite>sprites\spr_sticker</sprite>
     <sprite>sprites\spr_room</sprite>
     <sprite>sprites\spr_screen_off</sprite>
+    <sprite>sprites\spr_map</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_console</background>
@@ -88,6 +89,16 @@
     <room>rooms\room_start</room>
     <room>rooms\room_welcome</room>
     <room>rooms\room_0</room>
+    <room>rooms\room_1_1</room>
+    <room>rooms\room_1_2</room>
+    <room>rooms\room_1_3</room>
+    <room>rooms\room_1_4</room>
+    <room>rooms\room_2_1</room>
+    <room>rooms\room_2_2</room>
+    <room>rooms\room_2_3</room>
+    <room>rooms\room_2_4</room>
+    <room>rooms\room_2_5</room>
+    <room>rooms\room_2_6</room>
     <room>rooms\room_end</room>
   </rooms>
   <help>

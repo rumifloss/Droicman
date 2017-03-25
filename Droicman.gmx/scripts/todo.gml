@@ -1,13 +1,7 @@
-//Get all buttons functioning as intended
-// - Animate sound button
-// - Check why vibration isn't working
-//Create Welcome screen
-//Fix Game Over screen, make it restart game on the press of any button on the dpad
-//Recreate level packs A and B
 //Add level pack C
 //Add level pack D
 //Add level pack E
-///Add Google Play Games services (leaderboards, cloud saving, XP, etc.)
+//Add Google Play Games services (leaderboards, cloud saving, XP, etc.)
 
 
 
@@ -18,19 +12,21 @@
 
 /* INDEX
 
-1 2
+0 0
+
+1 2 - 240 steps
 2 2
 3 4
 4 4
 
-1 1
+1 1 - 180 steps
 2 1
 3 2
 4 2
 5 4
 6 4
 
-1 0
+1 0 - 120 steps
 2 0
 3 1
 4 1
@@ -39,14 +35,14 @@
 7 4
 8 4 
 
-3 0
+3 0 - 60 steps
 4 0
 5 1
 6 1
 7 2
 8 2
 
-5 0
+5 0 - 30 steps
 6 0
 7 1
 8 1

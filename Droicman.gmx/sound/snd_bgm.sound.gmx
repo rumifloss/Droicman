@@ -18,7 +18,7 @@
     <type>0</type>
   </types>
   <bitDepths>
-    <bitDepth>8</bitDepth>
+    <bitDepth>16</bitDepth>
   </bitDepths>
   <preload>-1</preload>
   <data>snd_bgm.ogg</data>
