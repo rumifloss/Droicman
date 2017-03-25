@@ -1,2 +1,3 @@
 # Droicman
-Source code for the Android game "Droicman", created with GameMaker: Studio. Currently unstable, incomplete, and full of bugs.
+Source code for the Android game "Droicman", created with GameMaker: Studio. 
+https://play.google.com/store/apps/details?id=com.droidge.droicman
