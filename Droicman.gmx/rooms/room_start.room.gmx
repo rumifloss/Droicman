@@ -52,15 +52,15 @@
   </views>
   <instances>
     <instance objName="obj_sticker" x="31" y="326" name="inst_1DC54CFF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_dpad_right" x="240" y="404" name="inst_3E9B50D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_dpad_down" x="172" y="436" name="inst_A49B17D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_dpad_left" x="104" y="404" name="inst_47911696" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_dpad_up" x="172" y="368" name="inst_7246E9AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_button_sound" x="12" y="432" name="inst_7EA39FAA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_button_vibrate" x="12" y="464" name="inst_35672146" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_button_power" x="12" y="360" name="inst_F69FB3A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_button_sound" x="16" y="428" name="inst_7EA39FAA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_button_power" x="16" y="360" name="inst_F69FB3A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_room" x="4" y="-20" name="inst_DC64EC21" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_screen_off" x="32" y="19" name="inst_91B6A1D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_dpad_down" x="172" y="436" name="inst_D54A8011" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_dpad_right" x="240" y="404" name="inst_ED10DF6E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_dpad_left" x="104" y="404" name="inst_91F4E400" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_button_vibrate" x="16" y="460" name="inst_AC4BE259" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_console" x="0" y="0" w="64" h="64" xo="0" yo="0" id="10000004" name="inst_FBA03FB1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

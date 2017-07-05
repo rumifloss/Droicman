@@ -11,12 +11,15 @@
     <sound>sound\snd_win</sound>
     <sound>sound\snd_bgm</sound>
     <sound>sound\snd_chom</sound>
+    <sound>sound\snd_enemy</sound>
+    <sound>sound\snd_death</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="spr_player">
       <sprite>sprites\spr_player_debug</sprite>
       <sprite>sprites\spr_player_dirindicator</sprite>
       <sprite>sprites\spr_player</sprite>
+      <sprite>sprites\spr_player_die</sprite>
     </sprites>
     <sprite>sprites\spr_chom</sprite>
     <sprite>sprites\spr_chombig</sprite>
@@ -26,6 +29,7 @@
       <sprite>sprites\spr_enemy_normal</sprite>
       <sprite>sprites\spr_enemy_vuln</sprite>
       <sprite>sprites\spr_enemy_die</sprite>
+      <sprite>sprites\spr_enemy_die_old</sprite>
     </sprites>
     <sprites name="spr_dpad">
       <sprite>sprites\spr_dpad_up</sprite>
@@ -50,7 +54,6 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bg_console</background>
-    <background>background\bg_console_rough</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -69,6 +72,7 @@
     <object>objects\obj_room</object>
     <object>objects\obj_enemy</object>
     <object>objects\obj_enemy_die</object>
+    <object>objects\obj_player_die</object>
     <objects name="obj_dpad">
       <object>objects\obj_dpad_left</object>
       <object>objects\obj_dpad_right</object>
@@ -99,6 +103,8 @@
     <room>rooms\room_2_4</room>
     <room>rooms\room_2_5</room>
     <room>rooms\room_2_6</room>
+    <room>rooms\room_3_1</room>
+    <room>rooms\room_3_2</room>
     <room>rooms\room_end</room>
   </rooms>
   <help>

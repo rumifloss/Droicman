@@ -155,7 +155,7 @@ ini_close();
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>global.game_ended == 0</string>
+            <string>global.game_ended == 0 &amp;&amp; global.player_death == 0</string>
           </argument>
         </arguments>
       </action>
@@ -330,7 +330,7 @@ if global.player_progress == 0
             <string>///Control sounds
 if global.game_ended == 0
 {
-    if !audio_is_playing(snd_bgm) //Plays BGM
+    if global.player_death == 0 &amp;&amp; !audio_is_playing(snd_bgm) //Plays BGM
     {
        audio_play_sound(snd_bgm, 1, 1);
     }
@@ -350,14 +350,14 @@ if global.game_ended == 0
         audio_sound_pitch(snd_bgm, 1);
     }
     
-    if audio_is_playing(snd_chom)
+    /*if audio_is_playing(snd_chom)
     {
         audio_sound_gain(snd_bgm, 0, 0);
     }
     else
     {
         audio_sound_gain(snd_bgm, 1, 0);
-    }
+    }*/
     
     //Stopping one-shot sounds when game starts
     if audio_is_playing(snd_title) 
@@ -375,7 +375,7 @@ if global.game_ended == 0
     
 }
 
-if global.game_ended == 1 //Stop all non-gameover sounds
+if global.player_death == 1 &amp;&amp; audio_is_playing(snd_bgm) //Stop BGM
 {
     audio_stop_sound(snd_bgm);
 }
@@ -660,6 +660,7 @@ if global.game_ended == -1
     draw_text(room_width / 2, 208, "HISCORE " + string(highscore) );
     draw_text(room_width / 2, 240, "PRESS DPAD UP");
     draw_text(room_width / 2, 256, "TO START");
+    draw_text(room_width / 2, 305, "V0.2.2");
 }
 
 //In-game HUD
@@ -709,7 +710,7 @@ if global.game_ended == 1
           <argument>
             <kind>1</kind>
             <string>///Set movement variables
-if global.game_ended == 0
+if instance_number(obj_player) != 0 &amp;&amp; global.game_ended == 0
 {
     obj_player.left_move = 0;
     obj_player.right_move = 0;
@@ -739,7 +740,7 @@ if global.game_ended == 0
           <argument>
             <kind>1</kind>
             <string>///Set movement variables
-if global.game_ended == 0
+if instance_number(obj_player) != 0 &amp;&amp; global.game_ended == 0
 {
     obj_player.left_move = 0;
     obj_player.right_move = 1;
@@ -769,13 +770,35 @@ if global.game_ended == 0
           <argument>
             <kind>1</kind>
             <string>///Set movement variables
-if global.game_ended == 0
+if instance_number(obj_player) != 0 &amp;&amp; global.game_ended == 0
 {
     obj_player.left_move = 0;
     obj_player.right_move = 0;
     obj_player.up_move = 1;
     obj_player.down_move = 0;
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Inform obj_room the button has been pressed
+obj_room.dpad_up_pressed = 1;
 </string>
           </argument>
         </arguments>
@@ -799,7 +822,7 @@ if global.game_ended == 0
           <argument>
             <kind>1</kind>
             <string>///Set movement variables
-if global.game_ended == 0
+if instance_number(obj_player) != 0 &amp;&amp; global.game_ended == 0
 {
     obj_player.left_move = 1;
     obj_player.right_move = 0;

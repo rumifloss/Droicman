@@ -1,3 +1,5 @@
+//Edit icons to look less... ugly.
+//Create "configuration form"
 //Add level pack C
 //Add level pack D
 //Add level pack E
